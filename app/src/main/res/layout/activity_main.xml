@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@color/blue">
+
+    </android.support.v7.widget.Toolbar>
+
+<View
+    android:id="@+id/sep"
+
+    android:layout_centerVertical="true"
+
+    android:layout_height="1dp"
+
+    android:layout_width="match_parent"/>
+
+<RelativeLayout
+
+android:layout_below="@id/sep"
+
+android:id="@+id/layout_dice"
+
+android:layout_marginTop="20dp"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+
+android:paddingLeft="50dp"
+
+android:paddingRight="50dp"
+
+android:layout_centerHorizontal="true">
+
+<ImageView
+
+    android:id="@+id/dice_02"
+
+    android:layout_width="40dp"
+
+    android:layout_height="40dp"
+
+    android:layout_marginTop="30dp"
+    />
+
+<ImageView
+
+    android:id="@+id/dice_05"
+
+    android:layout_width="40dp"
+
+    android:layout_height="40dp"
+
+    android:layout_alignParentLeft="true"
+
+    android:layout_below="@+id/dice_01"
+
+    android:layout_marginLeft="10dp"
+    />
+
+<ImageView
+
+    android:id="@+id/dice_01"
+
+    android:layout_width="40dp"
+
+    android:layout_height="40dp"
+
+    android:layout_marginTop="30dp"
+
+    android:layout_marginLeft="70dp"
+    />
+
+<ImageView
+
+    android:id="@+id/dice_06"
+
+    android:layout_width="40dp"
+
+    android:layout_height="40dp"
+
+    android:layout_below="@+id/dice_01"
+
+    android:layout_marginLeft="120dp" />
+
+<ImageView
+
+    android:id="@+id/dice_03"
+
+    android:layout_width="40dp"
+
+    android:layout_height="40dp"
+
+    android:layout_below="@+id/dice_01"
+
+    android:layout_marginLeft="50dp" />
+
+<ImageView
+
+    android:id="@+id/dice_04"
+
+    android:layout_width="40dp"
+
+    android:layout_height="40dp"
+
+    android:layout_marginTop="30dp"
+
+    android:layout_marginLeft="110dp"
+    />
+
+
+
+</RelativeLayout>
+
+<ImageView
+
+android:id="@+id/cover"
+android:layout_width="230dp"
+
+android:paddingLeft="20dp"
+
+android:paddingRight="20dp"
+
+android:layout_height="260dp"
+    android:layout_below="@+id/toolbar"
+
+android:layout_centerHorizontal="true"
+
+android:src="@drawable/cover"/>
+
+    <Button
+        android:id="@+id/shakingDice_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="吹起来"
+        android:textSize="25sp"/>
+
+
+</RelativeLayout>
