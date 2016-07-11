@@ -1,2 +1,0 @@
-# ChuiNiu
-ChuiNiu_Dice
